@@ -8,7 +8,7 @@ try {
 // Overwrite the Contentful config with environment variables if they exist
 contentfulConfig = {
   spaceId: "x1bpp2mpev05",
-  accessToken: "CFPAT-TK6SN-wmICDo_InverxhKHi6SqURP4s1mCJ6f0oEnOE"
+  accessToken: "V33WXw-Q9pUFrU3G4x21LkV-0PyQaXULK7Li4bR9cgM"
 };
 
 const { spaceId, accessToken } = contentfulConfig;
