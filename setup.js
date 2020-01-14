@@ -6,9 +6,10 @@ const chalk = require('chalk')
 
 const argv = require('yargs-parser')(process.argv.slice(2))
 
-const spaceId = argv.spaceId
-const managementToken = argv.managementToken
-const deliveryToken = argv.deliveryToken
+
+const spaceId ="x1bpp2mpev05"
+const managementToken ="CFPAT-3lbjk6kxrSVNQ-ejW4JIGm_84lTk6n8Qpk64XWcLkIg"
+const deliveryToken ="V33WXw-Q9pUFrU3G4x21LkV-0PyQaXULK7Li4bR9cgM"
 
 // we need all 3 variables in order to set up user's space correctly
 // spaceId and deliveryToken (CDA token) – to write into config file,
